@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="Deprecated">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_x="2dp"
+        android:layout_y="156dp"
+        android:layout_marginBottom="24dp"
+        android:text="Welcome to my calculator"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:layout_x="0dp"
+        android:layout_y="36dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        />
+
+    <EditText
+        android:id="@+id/first_numberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="190dp"
+        android:hint="Enter the First Number" />
+
+    <EditText
+        android:id="@+id/second_numberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="246dp"
+        android:hint="Enter the Second Number" />
+
+    <Button
+        android:id="@+id/plusButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="310dp"
+        android:background="#008050"
+        android:text="+" />
+    <Button
+        android:id="@+id/minuseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="360dp"
+        android:background="#008050"
+        android:text="-" />
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="410dp"
+        android:background="#008050"
+        android:text="*" />
+    <Button
+        android:id="@+id/divButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="460dp"
+        android:background="#008050"
+        android:text="/" />
+
+</AbsoluteLayout>
